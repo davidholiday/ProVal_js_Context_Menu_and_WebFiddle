@@ -1,0 +1,105 @@
+/*
+Theme Name: Project Valis
+Theme URI: http://www.projectvalis.com
+Description: Theme for the Project Valis Splash Site
+Author: Bill Bushey and David Deadalus
+Version: 1.0
+
+License:
+License URI:
+
+Comments!
+*/
+
+body { 
+	background: url(http://www.projectvalis.com/pv_wp/wp-content/themes/pv/VALIS_background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+    	font-family: Arial, Impact;
+}
+
+
+
+
+#main {
+/*
+    background-color: #696969;
+    color: #FFFFFF;
+    padding: 15px 25px;
+    shadow: 1px 1px #FFFFFF;
+    margin-right: 310px;
+    margin-top: 75px;
+    margin-left: auto;
+    min-width: 500px;
+    border-radius: 20px ;
+*/
+
+
+	background-color: #696969;
+    	color: #FFFFFF;
+    	padding: 15px 25px;
+    	shadow: 1px 1px #FFFFFF;
+    	margin-right: 350px;
+		margin-left: 30px;
+    	margin-top: 30px;
+    	min-width: 640px;
+		min-height: 650px;
+		max-height: 768px;
+    	border-radius: 20px;
+
+	
+}
+
+oldh1 {
+    color: #00BFFF;
+    text-shadow: 5px 5px 8px 1px #FFFFFF;
+}
+
+h1 {
+        color: #00BFFF;
+        text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
+        font-family: Impact, Charcoal, sans-serif;
+	font-size: 48px;
+        letter-spacing: 2px;
+}
+
+h2 {
+    color: #00EFFF;
+}
+
+#menu ul{
+    list-style:none;
+    margin: 15px 0px;
+    padding: 0px;
+}
+
+#menu ul li{
+    display:inline;
+    margin: 0 0 0 30px;
+    padding:0 0 0 0px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#menu ul li a{
+    text-shadow: 1px 1px 1px 1px #FFFFFF;
+    text-decoration: none;
+}
+
+.social-media {
+    background: none repeat scroll 0 0 #DFEBFF;
+    margin: 30px;
+}
+
+#twitter {
+    float: right;
+	margin-left: auto;
+    width: 250px;
+}
+
+a:link, a:visited{
+    color: #00BFFF
+}

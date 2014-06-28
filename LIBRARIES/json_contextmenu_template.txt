@@ -1,0 +1,16 @@
+		{
+            "id":"",
+			
+			"hub":"home",
+            
+			"color":"",
+			
+            "icon_path":"",
+			
+			"position_offsets": {
+				"buttonX": ,
+				"buttonY": ,
+				"iconX": ,
+				"iconY": 
+			}
+        },

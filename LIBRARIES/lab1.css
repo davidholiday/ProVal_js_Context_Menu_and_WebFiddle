@@ -1,0 +1,27 @@
+
+#canvas_container {  
+    width: 95%;  
+	height: 95%;
+    border: 1px solid #aaa; 
+	border-radius: 10px;
+	background: #ffffff;
+	margin: auto; 
+	position: absolute; 
+	top: 0px; 
+	bottom: 0px; 
+	left: 0px; 
+	right: 0px;
+	opacity: 1;
+}  
+		
+		
+body {
+	/*background: #bb9e4e*/ /*#dfeaf1;*/
+	background: url(../IMAGES/valisBackgroundD2_blue.jpg) no-repeat center center fixed; 
+	/*
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	*/
+	background-size: cover;
+}

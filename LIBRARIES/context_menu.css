@@ -1,0 +1,32 @@
+body {
+	margin:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.8em;
+	background-color:#fff;
+	color:#000;
+}
+
+.context-menu {
+	visibility:hidden; /* No, you cannot use display:none; */
+	position:absolute;
+	border:3px solid #666;
+	margin:20px;
+	padding:5px;
+	list-style:none;
+	width:250px;
+	background-color:#eee;
+} 
+.context-menu li:hover, .context-menu .context-menu-item-active {
+	background-color:#ccc;
+}
+.disabled {
+	color:#999;
+	background-color:#eee !important;
+}
+
+a {
+	text-decoration:none;
+}
+a:hover {
+	color:red;
+}
